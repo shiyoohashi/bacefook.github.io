@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "myStyles.css" />
+  </head>
+
+  <body>
+    <h1>どのポケモンと旅する？</h1>
+    <div class="example">
+      <div class = "inner">
+        <p style = "text-align: center">
+          <span class = "bollStyle"><img src="./img/boll.jpg" alt="ボール" width="150" height="150" /></span> 
+          <span class = "bollStyle"><img src="./img/boll.jpg" alt="ボール" width="150" height="150" hspace = "50"/></span> 
+          <span class = "bollStyle"><img src="./img/boll.jpg" alt="ボール" width="150" height="150" /></span><br>
+        </p>
+      </div>
+      <div class = "modal">
+        <h2>Final Answer?</h2>
+        <div class = "modalContent">
+          <img id = "imgPlace" src = "./img/モクロー.jpg" class = "imageBox" ><br>
+          名前<p>ここに名前が入ります。</p><br>
+          タイプ<p>ここにタイプが入ります2。</p><br>
+          体重<p>ここに重さが入ります3。</p><br>
+          高さ<p>ここに高さが入ります3。</p><br>
+        </div>
+      <input type = "button" id = "modalClose1" class = "modalClose" value = "考え直す">
+      <input type = "button" id = "nextButton" class = "modalClose" value = "君に決めた" onClick="location.href='https://www.youtube.com/watch?v=7Uk0brE6jpU'">
+      </div>
+    <div class = "mask"></div>
+    <script src = "myCode.js"></script>
+  </body>
+</html>
